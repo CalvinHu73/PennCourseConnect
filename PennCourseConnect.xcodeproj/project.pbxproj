@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F5D297E2574702E00F5C4D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D297D2574702E00F5C4D6 /* AppDelegate.swift */; };
+		5F5D29802574702E00F5C4D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D297F2574702E00F5C4D6 /* SceneDelegate.swift */; };
+		5F5D29822574702E00F5C4D6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D29812574702E00F5C4D6 /* SignInViewController.swift */; };
+		5F5D29852574702E00F5C4D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5D29832574702E00F5C4D6 /* Main.storyboard */; };
+		5F5D29872574703200F5C4D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F5D29862574703200F5C4D6 /* Assets.xcassets */; };
+		5F5D298A2574703200F5C4D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5D29882574703200F5C4D6 /* LaunchScreen.storyboard */; };
+		5F5D29922574709700F5C4D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F5D29912574709700F5C4D6 /* GoogleService-Info.plist */; };
+		5F87D6FF257738D900E4A450 /* DepartmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F87D6FE257738D900E4A450 /* DepartmentViewController.swift */; };
+		5F87D70125773FCF00E4A450 /* CreateSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F87D70025773FCF00E4A450 /* CreateSectionViewController.swift */; };
+		5F87D7032577569900E4A450 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F87D7022577569900E4A450 /* SignUpViewController.swift */; };
+		5FCF7C5B2576F26C0075F70A /* DepartmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF7C5A2576F26C0075F70A /* DepartmentsViewController.swift */; };
+		5FCF7C5D2576F7240075F70A /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF7C5C2576F7240075F70A /* CreateViewController.swift */; };
+		D3B47774EB19B2BF2E288F90 /* Pods_PennCourseConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B1DA2C48AC4BF35F315452 /* Pods_PennCourseConnect.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36B1DA2C48AC4BF35F315452 /* Pods_PennCourseConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PennCourseConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5D297A2574702E00F5C4D6 /* PennCourseConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PennCourseConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5D297D2574702E00F5C4D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F5D297F2574702E00F5C4D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5F5D29812574702E00F5C4D6 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		5F5D29842574702E00F5C4D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F5D29862574703200F5C4D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F5D29892574703200F5C4D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F5D298B2574703200F5C4D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F5D29912574709700F5C4D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5F87D6FE257738D900E4A450 /* DepartmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentViewController.swift; sourceTree = "<group>"; };
+		5F87D70025773FCF00E4A450 /* CreateSectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSectionViewController.swift; sourceTree = "<group>"; };
+		5F87D7022577569900E4A450 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5FCF7C5A2576F26C0075F70A /* DepartmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentsViewController.swift; sourceTree = "<group>"; };
+		5FCF7C5C2576F7240075F70A /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		674C3BC7F93006ED6FE42AD8 /* Pods-PennCourseConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PennCourseConnect.release.xcconfig"; path = "Target Support Files/Pods-PennCourseConnect/Pods-PennCourseConnect.release.xcconfig"; sourceTree = "<group>"; };
+		9766AAC744CFFB340CB174EA /* Pods-PennCourseConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PennCourseConnect.debug.xcconfig"; path = "Target Support Files/Pods-PennCourseConnect/Pods-PennCourseConnect.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F5D29772574702E00F5C4D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B47774EB19B2BF2E288F90 /* Pods_PennCourseConnect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B5AAE30562080CD08636432 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9766AAC744CFFB340CB174EA /* Pods-PennCourseConnect.debug.xcconfig */,
+				674C3BC7F93006ED6FE42AD8 /* Pods-PennCourseConnect.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5F5D29712574702E00F5C4D6 = {
+			isa = PBXGroup;
+			children = (
+				5F5D297C2574702E00F5C4D6 /* PennCourseConnect */,
+				5F5D297B2574702E00F5C4D6 /* Products */,
+				1B5AAE30562080CD08636432 /* Pods */,
+				C5AEFDE0DDC4D700D96F75B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5F5D297B2574702E00F5C4D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F5D297A2574702E00F5C4D6 /* PennCourseConnect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F5D297C2574702E00F5C4D6 /* PennCourseConnect */ = {
+			isa = PBXGroup;
+			children = (
+				5F5D29912574709700F5C4D6 /* GoogleService-Info.plist */,
+				5F5D297D2574702E00F5C4D6 /* AppDelegate.swift */,
+				5F5D297F2574702E00F5C4D6 /* SceneDelegate.swift */,
+				5F5D29812574702E00F5C4D6 /* SignInViewController.swift */,
+				5F5D29832574702E00F5C4D6 /* Main.storyboard */,
+				5F87D70025773FCF00E4A450 /* CreateSectionViewController.swift */,
+				5F87D6FE257738D900E4A450 /* DepartmentViewController.swift */,
+				5F5D29862574703200F5C4D6 /* Assets.xcassets */,
+				5F5D29882574703200F5C4D6 /* LaunchScreen.storyboard */,
+				5F5D298B2574703200F5C4D6 /* Info.plist */,
+				5FCF7C5A2576F26C0075F70A /* DepartmentsViewController.swift */,
+				5FCF7C5C2576F7240075F70A /* CreateViewController.swift */,
+				5F87D7022577569900E4A450 /* SignUpViewController.swift */,
+			);
+			path = PennCourseConnect;
+			sourceTree = "<group>";
+		};
+		C5AEFDE0DDC4D700D96F75B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36B1DA2C48AC4BF35F315452 /* Pods_PennCourseConnect.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F5D29792574702E00F5C4D6 /* PennCourseConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F5D298E2574703200F5C4D6 /* Build configuration list for PBXNativeTarget "PennCourseConnect" */;
+			buildPhases = (
+				C4EB1E5255D07ACA45B1A1F9 /* [CP] Check Pods Manifest.lock */,
+				5F5D29762574702E00F5C4D6 /* Sources */,
+				5F5D29772574702E00F5C4D6 /* Frameworks */,
+				5F5D29782574702E00F5C4D6 /* Resources */,
+				5330D8AA3A194127B1A0F7BE /* [CP] Embed Pods Frameworks */,
+				79125A371D9C85FDAFF56F43 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PennCourseConnect;
+			productName = PennCourseConnect;
+			productReference = 5F5D297A2574702E00F5C4D6 /* PennCourseConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F5D29722574702E00F5C4D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Calvin Hu";
+				TargetAttributes = {
+					5F5D29792574702E00F5C4D6 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 5F5D29752574702E00F5C4D6 /* Build configuration list for PBXProject "PennCourseConnect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F5D29712574702E00F5C4D6;
+			productRefGroup = 5F5D297B2574702E00F5C4D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F5D29792574702E00F5C4D6 /* PennCourseConnect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F5D29782574702E00F5C4D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5D298A2574703200F5C4D6 /* LaunchScreen.storyboard in Resources */,
+				5F5D29872574703200F5C4D6 /* Assets.xcassets in Resources */,
+				5F5D29852574702E00F5C4D6 /* Main.storyboard in Resources */,
+				5F5D29922574709700F5C4D6 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5330D8AA3A194127B1A0F7BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PennCourseConnect/Pods-PennCourseConnect-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PennCourseConnect/Pods-PennCourseConnect-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PennCourseConnect/Pods-PennCourseConnect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79125A371D9C85FDAFF56F43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PennCourseConnect/Pods-PennCourseConnect-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PennCourseConnect/Pods-PennCourseConnect-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PennCourseConnect/Pods-PennCourseConnect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4EB1E5255D07ACA45B1A1F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PennCourseConnect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F5D29762574702E00F5C4D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F87D6FF257738D900E4A450 /* DepartmentViewController.swift in Sources */,
+				5F87D70125773FCF00E4A450 /* CreateSectionViewController.swift in Sources */,
+				5F87D7032577569900E4A450 /* SignUpViewController.swift in Sources */,
+				5FCF7C5D2576F7240075F70A /* CreateViewController.swift in Sources */,
+				5FCF7C5B2576F26C0075F70A /* DepartmentsViewController.swift in Sources */,
+				5F5D29822574702E00F5C4D6 /* SignInViewController.swift in Sources */,
+				5F5D297E2574702E00F5C4D6 /* AppDelegate.swift in Sources */,
+				5F5D29802574702E00F5C4D6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F5D29832574702E00F5C4D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F5D29842574702E00F5C4D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F5D29882574703200F5C4D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F5D29892574703200F5C4D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F5D298C2574703200F5C4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F5D298D2574703200F5C4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F5D298F2574703200F5C4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9766AAC744CFFB340CB174EA /* Pods-PennCourseConnect.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PennCourseConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CIS-195.PennCourseConnect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F5D29902574703200F5C4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 674C3BC7F93006ED6FE42AD8 /* Pods-PennCourseConnect.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PennCourseConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CIS-195.PennCourseConnect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F5D29752574702E00F5C4D6 /* Build configuration list for PBXProject "PennCourseConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5D298C2574703200F5C4D6 /* Debug */,
+				5F5D298D2574703200F5C4D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F5D298E2574703200F5C4D6 /* Build configuration list for PBXNativeTarget "PennCourseConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5D298F2574703200F5C4D6 /* Debug */,
+				5F5D29902574703200F5C4D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F5D29722574702E00F5C4D6 /* Project object */;
+}
