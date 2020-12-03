@@ -24,6 +24,7 @@ class ProfileViewController: UIViewController {
             print("signOut throw")
         }
         if FirebaseAuth.Auth.auth().currentUser == nil {
+            UserDefaults.standard.removeObject(forKey: "email")
             self.performSegue(withIdentifier: "signedOut", sender: nil)
         }
     }

@@ -9,6 +9,7 @@
 import UIKit
 import GoogleSignIn
 import FirebaseAuth
+import FirebaseFirestore
 
 class SignInViewController: UIViewController, GIDSignInDelegate {
     
@@ -39,7 +40,19 @@ class SignInViewController: UIViewController, GIDSignInDelegate {
                 return
             }
             print("Signed in \(res.user.email ?? res.user.uid)")
-            self.performSegue(withIdentifier: "signedIn", sender: nil)
+            Firestore.firestore().collection("users").document(email).getDocument{ (document, error) in
+                if let document = document, document.exists {
+                    UserDefaults.standard.set(document.data(), forKey: "userData")
+                    self.performSegue(withIdentifier: "signedIn", sender: nil)
+                } else {
+                    print("Failed to sign in")
+                    do {
+                        try FirebaseAuth.Auth.auth().signOut()
+                    } catch is Any {
+                        print("signOut throw")
+                    }
+                }
+            }
         })
     }
     

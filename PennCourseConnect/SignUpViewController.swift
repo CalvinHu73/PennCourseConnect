@@ -56,6 +56,8 @@ class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, U
                 Firestore.firestore().collection("users").document(email).setData(userData)
                 
                 print("Signed up \(res.user.email ?? res.user.uid)")
+
+                UserDefaults.standard.set(userData, forKey: "userData")
                 self.performSegue(withIdentifier: "signedUp", sender: nil)
             })
         })

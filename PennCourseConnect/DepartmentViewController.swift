@@ -14,7 +14,7 @@ class DepartmentViewController: UIViewController, UITableViewDataSource, UITable
     
     var sections = [001, 002, 003]
     var docRef : DocumentReference!
-    
+    var section : Int?
     var department : String?
     @IBOutlet weak var tableView: UITableView!
     
@@ -52,6 +52,14 @@ class DepartmentViewController: UIViewController, UITableViewDataSource, UITable
             let csvc = segue.destination as! CreateSectionViewController
             csvc.delegate = self
         }
+        if segue.identifier == "chatSegue" {
+            let vc = segue.destination as! ChatViewController
+            var str = String((section ?? 0) + 1000)
+            let lower = str.index(after: str.startIndex)
+            str = String(str[lower...])
+            vc.title = "\(self.department ?? "DEPT") \(str)"
+            vc.docRef = Firestore.firestore().collection("departments").document(department!).collection("sections").document(str)
+        }
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -70,13 +78,21 @@ class DepartmentViewController: UIViewController, UITableViewDataSource, UITable
         if (sect > 0 && sect < 999) {
             sections.append(sect)
             let dataToSave : [String: Any] = ["section": sect, "valid": true]
-            docRef = Firestore.firestore().collection("departments").document(department!).collection("sections").addDocument(data: dataToSave, completion: { error in
+            
+            var str = String(sect + 1000)
+            let lower = str.index(after: str.startIndex)
+            str = String(str[lower...])
+            
+            docRef = Firestore.firestore().collection("departments").document(department!).collection("sections").document(str)
+                
+            docRef.setData(dataToSave, completion: { error in
                 if let _ = error {
                     print("Error found here!")
                 } else {
                     print("No error here!")
                 }
             })
+                
             sections = sections.sorted()
             for str in sections {
                 print(str)
@@ -106,5 +122,11 @@ class DepartmentViewController: UIViewController, UITableViewDataSource, UITable
                 self.tableView.reloadData()
             }
         }
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        section = sections[indexPath.row]
+        self.performSegue(withIdentifier: "chatSegue", sender: nil)
     }
 }
