@@ -22,11 +22,12 @@ class DepartmentsViewController: UIViewController, CreateDelegate, UITableViewDa
     override func viewDidLoad() {
         super.viewDidLoad()
         if FirebaseAuth.Auth.auth().currentUser == nil {
+            print("testtttt")
             self.performSegue(withIdentifier: "notSignedIn", sender: nil)
+        } else {
+            initializeDepartments()
+            configureRefreshControl()
         }
-        
-        initializeDepartments()
-        configureRefreshControl()
     }
     
     func configureRefreshControl () {
@@ -117,17 +118,6 @@ class DepartmentsViewController: UIViewController, CreateDelegate, UITableViewDa
                 print("done")
                 self.tableView.reloadData()
             }
-        }
-    }
-    
-    @IBAction func signOutTapped(_ sender: Any) {
-        do {
-            try FirebaseAuth.Auth.auth().signOut()
-        } catch is Any {
-            print("signOut throw")
-        }
-        if FirebaseAuth.Auth.auth().currentUser == nil {
-            self.performSegue(withIdentifier: "notSignedIn", sender: nil)
         }
     }
 }

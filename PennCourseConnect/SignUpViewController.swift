@@ -47,7 +47,7 @@ class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, U
             }
             FirebaseAuth.Auth.auth().createUser(withEmail: email, password: password, completion: { result, error in
                 guard error == nil, let res = result else {
-                    let alert = UIAlertController.init(title: "Failed sign up", message: "", preferredStyle: .alert)
+                    let alert = UIAlertController.init(title: "Failed sign up", message: "Error authenticating, please check email", preferredStyle: .alert)
                     alert.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: nil))
                     self.present(alert, animated: true, completion: nil)
                     return

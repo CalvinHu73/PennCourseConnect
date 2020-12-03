@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F2B1E8B25786AC90090A977 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B1E8A25786AC90090A977 /* ProfileViewController.swift */; };
+		5F2B1E8D257881EC0090A977 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B1E8C257881EC0090A977 /* ChatViewController.swift */; };
 		5F5D297E2574702E00F5C4D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D297D2574702E00F5C4D6 /* AppDelegate.swift */; };
 		5F5D29802574702E00F5C4D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D297F2574702E00F5C4D6 /* SceneDelegate.swift */; };
 		5F5D29822574702E00F5C4D6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D29812574702E00F5C4D6 /* SignInViewController.swift */; };
@@ -24,6 +26,8 @@
 
 /* Begin PBXFileReference section */
 		36B1DA2C48AC4BF35F315452 /* Pods_PennCourseConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PennCourseConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F2B1E8A25786AC90090A977 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5F2B1E8C257881EC0090A977 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		5F5D297A2574702E00F5C4D6 /* PennCourseConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PennCourseConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F5D297D2574702E00F5C4D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F5D297F2574702E00F5C4D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 				5FCF7C5A2576F26C0075F70A /* DepartmentsViewController.swift */,
 				5FCF7C5C2576F7240075F70A /* CreateViewController.swift */,
 				5F87D7022577569900E4A450 /* SignUpViewController.swift */,
+				5F2B1E8A25786AC90090A977 /* ProfileViewController.swift */,
+				5F2B1E8C257881EC0090A977 /* ChatViewController.swift */,
 			);
 			path = PennCourseConnect;
 			sourceTree = "<group>";
@@ -249,7 +255,9 @@
 				5FCF7C5D2576F7240075F70A /* CreateViewController.swift in Sources */,
 				5FCF7C5B2576F26C0075F70A /* DepartmentsViewController.swift in Sources */,
 				5F5D29822574702E00F5C4D6 /* SignInViewController.swift in Sources */,
+				5F2B1E8B25786AC90090A977 /* ProfileViewController.swift in Sources */,
 				5F5D297E2574702E00F5C4D6 /* AppDelegate.swift in Sources */,
+				5F2B1E8D257881EC0090A977 /* ChatViewController.swift in Sources */,
 				5F5D29802574702E00F5C4D6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

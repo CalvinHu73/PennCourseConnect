@@ -71,10 +71,6 @@ class SignInViewController: UIViewController, GIDSignInDelegate {
     @IBOutlet weak var signInButton: GIDSignInButton!
     
     
-    
-    @IBAction func didTapSignOut(_ sender: AnyObject) {
-      GIDSignIn.sharedInstance().signOut()
-    }
 
 }
 
